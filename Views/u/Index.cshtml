@@ -1,0 +1,19 @@
+﻿@model IEnumerable<WebApp.Itm>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_L-u";
+    ViewData["Title"] = "<title>Profile<title>";
+}
+<link rel="stylesheet" src=""/>
+<h2>Home Page</h2>
+<div>
+@{
+    if (true)
+    {
+        <h5>Hello, @User.Identity.Name</h5>
+        <a class="btn btn-primary" asp-controller="I" asp-action="Indx">Open Shop Table</a>
+        <a class="btn btn-primary" asp-controller="U" asp-action="Mngr">Manage Users</a>
+        <a class="btn btn-danger" asp-controller="U" asp-action="SignOut">Sign Out</a>
+    }
+}
+</div>

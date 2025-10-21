@@ -1,0 +1,33 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebApp.Itm
+
+@{
+    Layout = "_L-i";
+    ViewData["Title"] = "<>...</>";
+}
+<h2>Delete Item</h2>
+<a class="btn btn-primary" asp-controller="I" asp-action="Index">Return to table</a>
+
+<form asp-controller="I" asp-action="Del" method="post">
+    <div class="form-group">
+        <label asp-for="Id">Id</label>
+        <input asp-for="Id" name="Id" class="form-control" readonly />
+        <!-- <span asp-validation-for="Name" class="text-danger"></span> -->
+    </div>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" name="Name" class="form-control" readonly />
+        <!-- <span asp-validation-for="Name" class="text-danger"></span> -->
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" name="Price" class="form-control" readonly />
+        <!--<span asp-validation-for="Price" class="text-danger"></span>-->
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" name="Description" class="form-control" readonly></textarea>
+        <!--<span asp-validation-for="Description" class="text-danger"></span>-->
+    </div>
+    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</button>
+</form>

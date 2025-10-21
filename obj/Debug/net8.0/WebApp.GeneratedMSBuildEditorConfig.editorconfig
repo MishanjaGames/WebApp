@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApp
+build_property.RootNamespace = WebApp
+build_property.ProjectDir = D:\Files\Education\ed_prctic\asp.net\WebApp\WebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Files\Education\ed_prctic\asp.net\WebApp\WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/i/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/i/Del.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaVxEZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/i/Det.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaVxEZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/i/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/i/Upd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaVxVcGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/i/_L-i.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaVxfTC1pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/Shared/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/Shared/_L-Sh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MLVNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/u/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/u/Log.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdVxMb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/u/Mngr.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdVxNbmdyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/u/Reg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdVxSZWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Files/Education/ed_prctic/asp.net/WebApp/WebApp/Views/u/_L-u.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdVxfTC11LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
