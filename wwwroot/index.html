@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Shop Frontend</title>
+    <style>
+        #product_list {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .product_item {
+            display: inline-block;
+            border: 1px solid black;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <button>Home</button>
+            <button>Store</button>
+            <button>Profile</button>
+        </div>
+    </header>
+
+    <div class="box_auth">
+        <div class="box_register">
+            <h2>Register</h2>
+            <input type="email" id="regEmail" value="">
+            <input type="password" id="regPass" value="">
+            <br />
+            <a onclick="showAuth(false)">Login</a>
+            <br />
+            <button id="btnReg" onclick="register()">Register</button>
+        </div>
+        <div class="box_login">
+            <h2>Login</h2>
+            <input type="email" id="logEmail" value="">
+            <input type="password" id="logPass" value="">
+            <br />
+            <a onclick="showAuth(true)">Register</a>
+            <br />
+            <button id="btnLog" onclick="login()">Login</button>
+        </div>
+    </div>
+    <div class="box_data">
+        <div id="user_profile"></div>
+        <div class="box_profile">
+            <p id="user_name"></p>
+            <p id="user_email"></p>
+            <button onclick="logout()" id="btn_logout">Log Out</button>
+        </div>
+        <div class="box_user_results">
+            <pre id="output"></pre>
+        </div>
+    </div>
+    <div class="box_shop">
+        <h1>Products</h1>
+        <div id="product_list"></div>
+    </div>
+    <script src="./js/user.js"></script>
+    <script src="./js/products.js"></script>
+</body>
+</html>
